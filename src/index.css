@@ -1,0 +1,105 @@
+html, body, #root, .ant-layout {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.container_light, .container_light .label {
+  background: #f9f9f9 !important;
+  color: #424242 !important;
+}
+.container_dark, .container_dark .label {
+  background-color: #2e2e2c !important;
+  color: #e1e1ff !important;
+}
+
+.form {
+  padding: 10px;
+  width: 200px;
+}
+.form .ant-select {
+  width: 100%;
+}
+.form input, .form .ant-select-selector {
+  height: 32px;
+  width: 100%;
+  padding: 0 11px;
+  display: block;
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form input:focus, .form .ant-select-selector:focus {
+  outline: 0;
+  border: solid 1px rgb(21, 117, 21);
+}
+.form_dark input, .form_dark .ant-select-selector, .form_dark .select_option {
+  background-color: #2e2e2c !important;
+  color: #e1e1ff !important;
+}
+.form_light input, .form_light .ant-select-selector, .form_light .select_option {
+  background: #f9f9f9 !important;
+  color: #424242 !important;
+}
+.form_dark .anticon {
+  color: #e1e1ff !important;
+}
+.form_light .anticon {
+  color: #424242 !important;
+}
+.form .ant-input-number {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.form .ant-input-number-handler {
+  background-color: grey;
+}
+
+.bgGreen {
+  background-color: green;
+}
+
+.bgGreen:hover {
+  background-color: green !important;
+}
+
+.ant-table-tbody {
+  border: none;
+}
+.ant-table-tbody tr {
+  border: none;
+}
+
+.ant-table-cell {
+  border: none !important;
+}
+
+.ant-table-row:last-child .ant-table-cell {
+  border-bottom: 1px solid grey !important;
+}
+
+.ant-table-cell:last-child {
+  border-right: 1px solid grey !important;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  display: none;
+}
+
+.border-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0px;
+  border: 1px solid grey;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  margin-right: 110px;
+}
+
+/*# sourceMappingURL=index.css.map */
